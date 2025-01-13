@@ -23,9 +23,6 @@ for line in f:
 
 
     if line_safe == (len(report) - 1) and (line_safe == decreasing or line_safe == increasing): 
-        print(line_safe)
-        print(increasing)
-        print(decreasing)
         print(f"safe  {report}")
         total_safe_reports += 1
     
